@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="index">
+    <!--头部-->
+    <view class="index_head">
+        <view class="index_head_search">
+            <image class="index_head_search-person" src="../../images/icon-weixin.png"></image>
+            <view class="index_head_search_con">
+                <input class="index_head_search_con-input" placeholder-class="inputClass" placeholder="请输入关键词"></input>
+                <view class="index_head_search_con-btn">
+                    <image class="index_head_search_con-btn-icon" src="../../images/icon_search@2x.png"></image>
+                    <text class="index_head_search_con-text">搜索</text>
+                </view>
+            </view>
+        </view>
+        <view class="index_head_swiper">
+            <swiper class="index_head_swiper-swiper" indicator-dots="true" indicator-color="rgba(2, 255, 255, .32)" indicator-active-color="rgba(255, 255, 255, 1)" autoplay="true" circular="true">
+                <swiper-item wx:for="{{swiperList}}" wx:for-item="item" wx:key="*this">
+                       <image class="index_head_swiper-image" src="{{item}}"></image>
+                </swiper-item>
+            </swiper>
+        </view>
+        <view class="index_head_bg"></view>
+    </view>
+    <!--分类-->
+    <view class="index_con">
+        <view>
+            <view></view>
+            <view></view>
+            <view></view>
+            <view></view>
+        </view>
+    </view>
+    <!--内容-->
+ <!-- <search></search> -->
+</view>

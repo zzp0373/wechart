@@ -1,0 +1,12 @@
+<!--components/search.wxml-->
+<view class="search">
+  <view class="search_cont">
+    <input class="search_cont_input" placeholder-class="search_cont_placeholder" placeholder="请输入关键词"></input>
+    <!-- <image src=""></image> -->
+    <van-button class="btn" custom-style="width: 100rpx" size="mini" color="#2154F4" round="true" icon="https://img.yzcdn.cn/vant/logo.png" type="info">
+    搜索
+    </van-button>
+  </view>
+</view>
+
+
