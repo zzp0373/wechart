@@ -23,13 +23,71 @@
     </view>
     <!--分类-->
     <view class="index_con">
-        <view>
-            <view></view>
-            <view></view>
-            <view></view>
-            <view></view>
+        <view class="index_con_box">
+            <view class="index_con_box-item">
+                <image  class="index_con_box-item-image" src="../../images/icon-weixin.png"></image>
+                <text class="index_con_box-item-text">招标搜索</text>
+            </view>
+            <view class="index_con_box-item">
+                <image  class="index_con_box-item-image" src="../../images/icon-weixin.png"></image>
+                <text class="index_con_box-item-text">招标搜索</text>
+            </view>
+             <view class="index_con_box-item">
+                <image  class="index_con_box-item-image" src="../../images/icon-weixin.png"></image>
+                <text class="index_con_box-item-text">招标搜索</text>
+            </view>
+             <view class="index_con_box-item">
+                <image  class="index_con_box-item-image" src="../../images/icon-weixin.png"></image>
+                <text class="index_con_box-item-text">招标搜索</text>
+            </view>
         </view>
     </view>
     <!--内容-->
- <!-- <search></search> -->
+    <view class="index_detail">
+        <view class="index_detail_con">
+            <view class="index_detail_con_title">
+                <view class="index_detail_con_title_left">
+                    <image class="index_detail_con_title_left-img" src="../../images/icon_new@2x.png"></image>
+                    <text class="index_detail_con_title_left-text">最新招标信息</text>
+                </view>
+                <view class="index_detail_con_title_left index_detail_con_title_right">
+                    <text class="index_detail_con_title_right-text">全部</text>
+                    <image class="index_detail_con_title_right-img" src="../../images/icon_arrow_gray @3x.png"></image>
+                </view>
+            </view>
+            <view class="index_detail_con-item">
+                <view class="index_detail_con-item-title">
+                  <text class="index_detail_con-item-title-icon">招标</text>西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告
+                </view>
+                <view class="index_detail_con-item-descript">
+                    西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告…
+                </view> 
+                <view class="index_detail_con-item-time">
+                    2020/12/01 12:12
+                </view>
+            </view>
+            <view class="index_detail_con-item">
+                <view class="index_detail_con-item-title">
+                  <text class="index_detail_con-item-title-icon">招标</text>西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告
+                </view>
+                <view class="index_detail_con-item-descript">
+                    西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告…
+                </view> 
+                <view class="index_detail_con-item-time">
+                    2020/12/01 12:12
+                </view>
+            </view>
+            <view class="index_detail_con-item">
+                <view class="index_detail_con-item-title">
+                  <text class="index_detail_con-item-title-icon">招标</text>西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告
+                </view>
+                <view class="index_detail_con-item-descript">
+                    西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告西安咸阳国际机场三期扩建工程飞行区场道工程（二标段）项目商混采购招标公告…
+                </view> 
+                <view class="index_detail_con-item-time">
+                    2020/12/01 12:12
+                </view>
+            </view>
+        </view>
+    </view>
 </view>
